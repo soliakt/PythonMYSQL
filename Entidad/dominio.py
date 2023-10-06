@@ -1,6 +1,5 @@
 class Dominio:
     # Dominio 
-    # Representa el nombre de la cuenta
     def __init__(self, id, fechaCreacion, fechaExpiracion, propietario, proveedor, importe):
         self.id = id
         self.fechaCreacion = fechaCreacion
